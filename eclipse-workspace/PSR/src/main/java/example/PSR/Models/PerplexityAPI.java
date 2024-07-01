@@ -26,7 +26,7 @@ public class PerplexityAPI {
 
         con.setRequestMethod("POST");
         con.setRequestProperty("Content-Type", "application/json");
-        con.setRequestProperty("Authorization", "Bearer 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");
+        con.setRequestProperty("Authorization", "Bearer YOUR_API_KEY_PERPLEXITY");
         
         String model = "mistral-7b-instruct";
         String prompt = "[{\"role\": \"user\", \"content\": \"" + question + "}]";
